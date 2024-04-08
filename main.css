@@ -598,6 +598,9 @@ nav .logo {
 }
 
 .one{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 406px;
     height: 464px;
     transform: translate(200px, 165px);
@@ -610,7 +613,7 @@ nav .logo {
 
 .one_text p {
     width: 402px;
-    height: 84px;
+    height: 90px;
     font-size: 18px;
     font-weight: 400;
 }
@@ -682,11 +685,6 @@ nav .logo {
     padding: 10px;
 }
 
-.name:hover {
-    border: 5px solid #00B871;
-    border-radius: 16px;
-}
-
 .name input {
     width: 380px;
     height: 51px;
@@ -707,13 +705,7 @@ nav .logo {
     transition: all 0.3s;
 }
 
-.email:hover {
-    border: 5px solid #00B871;
-    border-radius: 16px;
-}
-
 .message {
-    transition: all 0.3s;
     padding: 10px;
 }
 
@@ -722,11 +714,6 @@ nav .logo {
     height: 180px;
     border: 2px solid gray;
     border-radius: 11px;
-}
-
-.message:hover {
-    border: 5px solid #00B871;
-    border-radius: 16px;
 }
 
 /**********************************************************************************************/
